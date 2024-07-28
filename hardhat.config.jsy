@@ -1,0 +1,12 @@
+require("@nomicfoundation/hardhat-toolbox");
+
+module.exports = {
+  solidity: "0.8.19",
+  networks: {
+    swisstronik: {
+      url: "https://json-rpc.testnet.swisstronik.com/",
+      accounts: ["0x03c9db233ed029fbef0abc7ff4e7ed4c2fcc341bd586e15bea7bdf7da6e391fc"], //Your private key starting with "0x"
+    },
+  },
+};
+
